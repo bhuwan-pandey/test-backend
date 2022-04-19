@@ -12,4 +12,6 @@ By default, two users are created.
 | ------- | -------- | ---- |
 | admin | admin | admin |
 | User-A | user | user |
-You can login view the visualization through admin login only
+You can view the visualization through admin login only
+
+This URL on which the app is hosted http://ec2-54-167-16-45.compute-1.amazonaws.com:5003 will be available upon request
