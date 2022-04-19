@@ -14,4 +14,6 @@ By default, two users are created.
 | User-A | user | user |
 You can view the visualization through admin login only
 
-This URL on which the app is hosted http://ec2-54-167-16-45.compute-1.amazonaws.com:5003 will be available upon request
+This URL on which the app is hosted http://ec2-54-167-16-45.compute-1.amazonaws.com:5003 will be available upon request.
+
+Backend uses MySQL Database. So please use your own credentials by modifying file at db_config/config.js
