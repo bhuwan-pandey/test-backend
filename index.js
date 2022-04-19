@@ -39,8 +39,7 @@ console.log("Started @", new Date());
  * make ALTER_DB true to alter the tables to fit models
  * MAKE SURE THAT YOU DONOT DO THIS IN PRODUCTION
  */
-const INIT_DB =
-  (process.argv && process.argv.indexOf("--init") !== -1) || false;
+const INIT_DB = (process.argv && process.argv.indexOf("--init") !== -1) || true;
 const ALTER_DB =
   (process.argv && process.argv.indexOf("--alter") !== -1) || false;
 sequelize
